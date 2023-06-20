@@ -1,9 +1,6 @@
-
-
 import os
 import torch
 from copy import deepcopy
-
 
 tmp = torch.load('./generation/epoch=888-step=88888.ckpt')
 
