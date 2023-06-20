@@ -28,3 +28,10 @@ python change_params_dir.py
 ```python
 python generation.py --model_path [generation folder]  --seed [seed]
 ```
+
+## Get Cif file
+```python
+from analysis import *
+structures = get_all_structures( gen_ckpt_file)
+cif_lines = get_cif_from_structure(structures)
+```
